@@ -32,4 +32,8 @@ describe('Main', () => {
     expect(FizzBuzz(7)).to.be.equal(7);
   });
 
+  it('shold return zero when zero', () => {
+    expect(FizzBuzz(0)).to.be.equal(0);
+  });
+
 });
